@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../PublicTrafficPassengersJam/Controller/JamListController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../PublicTrafficPassengersJam/Controller/JamListController.xib">
+   </FileRef>
+   <FileRef
       location = "group:../Media.xcassets">
    </FileRef>
    <FileRef

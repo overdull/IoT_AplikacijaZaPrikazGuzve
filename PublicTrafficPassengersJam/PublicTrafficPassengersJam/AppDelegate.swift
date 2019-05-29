@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let vc = LoginController()
+        let vc = ListOfTramController()
         
         window?.rootViewController = vc
         

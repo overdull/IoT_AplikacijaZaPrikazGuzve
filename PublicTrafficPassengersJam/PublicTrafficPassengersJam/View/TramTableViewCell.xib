@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="125" id="KGk-i7-Jjw" customClass="TramTableViewCell" customModule="PublicTrafficPassengersJam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="124.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tramLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="XUJ-eg-KCl">
+                        <rect key="frame" x="26" y="21" width="82.5" height="82.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="82.5" id="39k-27-1TF"/>
+                            <constraint firstAttribute="height" constant="82.5" id="AQN-FL-0p1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linija 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tP-I1-XaR" userLabel="TramLine">
+                        <rect key="frame" x="148.5" y="31" width="54" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="7Rh-lh-60P"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="RLq-cd-xg9">
+                        <rect key="frame" x="242.5" y="36" width="10" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="XYP-fj-jE7"/>
+                            <constraint firstAttribute="height" constant="50" id="vK7-zL-YRE"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="w4Q-8P-idi">
+                        <rect key="frame" x="257.5" y="36" width="10" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="9Jo-Cj-SH2"/>
+                            <constraint firstAttribute="width" constant="10" id="fRG-hk-7Dt"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="sQC-g2-cCT">
+                        <rect key="frame" x="272.5" y="36" width="10" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="XoQ-Ka-P9X"/>
+                            <constraint firstAttribute="width" constant="10" id="ZjI-K5-eHf"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="dG4-mq-Ndi">
+                        <rect key="frame" x="291.5" y="36" width="10" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="GMZ-1E-mFC"/>
+                            <constraint firstAttribute="width" constant="10" id="OH6-ow-AWS"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.93333333330000001" green="0.58823529409999997" blue="0.32302411279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                <constraints>
+                    <constraint firstItem="XUJ-eg-KCl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="1re-hg-2o0"/>
+                    <constraint firstItem="1tP-I1-XaR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="8lA-CH-CmY"/>
+                    <constraint firstItem="w4Q-8P-idi" firstAttribute="leading" secondItem="RLq-cd-xg9" secondAttribute="trailing" constant="5" id="AOJ-5H-DxM"/>
+                    <constraint firstItem="1tP-I1-XaR" firstAttribute="leading" secondItem="XUJ-eg-KCl" secondAttribute="trailing" constant="40" id="HQv-os-giq"/>
+                    <constraint firstItem="XUJ-eg-KCl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OJp-Se-Fix"/>
+                    <constraint firstItem="XUJ-eg-KCl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="Wzm-VS-l6Y"/>
+                    <constraint firstItem="RLq-cd-xg9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="cWO-22-FHR"/>
+                    <constraint firstItem="dG4-mq-Ndi" firstAttribute="leading" secondItem="sQC-g2-cCT" secondAttribute="trailing" constant="9" id="hLe-aa-9Sd"/>
+                    <constraint firstItem="dG4-mq-Ndi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="iPg-TW-xB8"/>
+                    <constraint firstItem="sQC-g2-cCT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="mAe-CB-zTg"/>
+                    <constraint firstItem="RLq-cd-xg9" firstAttribute="leading" secondItem="1tP-I1-XaR" secondAttribute="trailing" constant="40" id="mzd-zb-5hH"/>
+                    <constraint firstItem="w4Q-8P-idi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="ny0-Fl-qzh"/>
+                    <constraint firstItem="sQC-g2-cCT" firstAttribute="leading" secondItem="w4Q-8P-idi" secondAttribute="trailing" constant="5" id="tqU-z1-EWC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="138.40000000000001" y="190.25487256371815"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="74" height="284"/>
+        <image name="2" width="80" height="284"/>
+        <image name="3" width="76" height="284"/>
+        <image name="4" width="80" height="284"/>
+        <image name="tramLogo2" width="698" height="704"/>
+    </resources>
+</document>

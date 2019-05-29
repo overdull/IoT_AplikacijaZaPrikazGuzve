@@ -13,7 +13,11 @@
 		64BEC7BB229EA3630088A1C7 /* PublicTrafficPassengersJamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BEC7BA229EA3630088A1C7 /* PublicTrafficPassengersJamUITests.swift */; };
 		64BEC7CE229EA46C0088A1C7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BEC7CC229EA46C0088A1C7 /* LoginController.swift */; };
 		64BEC7CF229EA46C0088A1C7 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BEC7CD229EA46C0088A1C7 /* LoginController.xib */; };
-		64BEC7D1229EA6970088A1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BEC7D0229EA6970088A1C7 /* Assets.xcassets */; };
+		64BEC7D4229EABFC0088A1C7 /* ListOfTramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BEC7D2229EABFC0088A1C7 /* ListOfTramController.swift */; };
+		64BEC7D5229EABFC0088A1C7 /* ListOfTramController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BEC7D3229EABFC0088A1C7 /* ListOfTramController.xib */; };
+		64BEC7DA229EAC940088A1C7 /* TramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BEC7D8229EAC940088A1C7 /* TramTableViewCell.swift */; };
+		64BEC7DB229EAC940088A1C7 /* TramTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BEC7D9229EAC940088A1C7 /* TramTableViewCell.xib */; };
+		64BEC7DD229EB16A0088A1C7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BEC7DC229EB16A0088A1C7 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +50,11 @@
 		64BEC7BC229EA3630088A1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64BEC7CC229EA46C0088A1C7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		64BEC7CD229EA46C0088A1C7 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
-		64BEC7D0229EA6970088A1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BEC7D2229EABFC0088A1C7 /* ListOfTramController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfTramController.swift; sourceTree = "<group>"; };
+		64BEC7D3229EABFC0088A1C7 /* ListOfTramController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListOfTramController.xib; sourceTree = "<group>"; };
+		64BEC7D8229EAC940088A1C7 /* TramTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TramTableViewCell.swift; sourceTree = "<group>"; };
+		64BEC7D9229EAC940088A1C7 /* TramTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TramTableViewCell.xib; sourceTree = "<group>"; };
+		64BEC7DC229EB16A0088A1C7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,6 @@
 		64BEC78E229EA3600088A1C7 = {
 			isa = PBXGroup;
 			children = (
-				64BEC7D0229EA6970088A1C7 /* Assets.xcassets */,
 				64BEC799229EA3600088A1C7 /* PublicTrafficPassengersJam */,
 				64BEC7AE229EA3630088A1C7 /* PublicTrafficPassengersJamTests */,
 				64BEC7B9229EA3630088A1C7 /* PublicTrafficPassengersJamUITests */,
@@ -98,6 +105,7 @@
 		64BEC799229EA3600088A1C7 /* PublicTrafficPassengersJam */ = {
 			isa = PBXGroup;
 			children = (
+				64BEC7DC229EB16A0088A1C7 /* Media.xcassets */,
 				64BEC7CB229EA3960088A1C7 /* View */,
 				64BEC7CA229EA3910088A1C7 /* Service */,
 				64BEC7C9229EA3870088A1C7 /* Model */,
@@ -132,6 +140,8 @@
 			children = (
 				64BEC7CC229EA46C0088A1C7 /* LoginController.swift */,
 				64BEC7CD229EA46C0088A1C7 /* LoginController.xib */,
+				64BEC7D2229EABFC0088A1C7 /* ListOfTramController.swift */,
+				64BEC7D3229EABFC0088A1C7 /* ListOfTramController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +163,8 @@
 		64BEC7CB229EA3960088A1C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				64BEC7D8229EAC940088A1C7 /* TramTableViewCell.swift */,
+				64BEC7D9229EAC940088A1C7 /* TramTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,8 +273,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BEC7DD229EB16A0088A1C7 /* Media.xcassets in Resources */,
 				64BEC7A5229EA3630088A1C7 /* LaunchScreen.storyboard in Resources */,
-				64BEC7D1229EA6970088A1C7 /* Assets.xcassets in Resources */,
+				64BEC7DB229EAC940088A1C7 /* TramTableViewCell.xib in Resources */,
+				64BEC7D5229EABFC0088A1C7 /* ListOfTramController.xib in Resources */,
 				64BEC7CF229EA46C0088A1C7 /* LoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BEC79B229EA3600088A1C7 /* AppDelegate.swift in Sources */,
+				64BEC7DA229EAC940088A1C7 /* TramTableViewCell.swift in Sources */,
+				64BEC7D4229EABFC0088A1C7 /* ListOfTramController.swift in Sources */,
 				64BEC7CE229EA46C0088A1C7 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
